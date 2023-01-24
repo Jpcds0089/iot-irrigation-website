@@ -1,0 +1,24 @@
+{
+  "name": "iot-irrigation-website",
+  "version": "1.0.0",
+  "description": "Website to a product of IOT. This product is a automatic irrigation with the Arduino.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Website",
+    "Site",
+    "Irrigation",
+    "Automatic",
+    "irrigation",
+    "Arduino",
+    "IOT"
+  ],
+  "author": "João Paulo Caetano",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
