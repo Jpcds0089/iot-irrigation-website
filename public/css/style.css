@@ -29,11 +29,18 @@ body {
 /* Home page --------------------------------------------------------- */
 
 
+/* Header */
+.person-img {
+    width: 200px;
+}
+
 /* Features */
 
 
 /* About */
-
+.irrigation-img {
+    width: 200px;
+}
 
 /* Pricing */
 
