@@ -1,0 +1,41 @@
+
+
+/* Global variables -------------------------------------------------- */
+
+
+:root {
+
+    /* Colors pallet */
+    --green-400: #479F76;
+    --green-500: #146C43;
+    --green-600: #0F5132;
+    --gray-700: #343A40;
+    --gray-900: #212529;
+
+}
+
+
+/* Global tags ------------------------------------------------------- */
+
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.5rem;
+    color: var(--gray-900);
+    
+}
+
+
+/* Home page --------------------------------------------------------- */
+
+
+/* Features */
+
+
+/* About */
+
+
+/* Pricing */
+
+
+/* Footer */

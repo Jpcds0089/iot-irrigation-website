@@ -7,6 +7,8 @@ const express = require("express");
 
 const app = express();
 
+app.use(express.static("public"));
+
 
 /* Home page ------------------------------------------------------------ */
 
@@ -19,6 +21,6 @@ app.get("/", function(req, res) {
 /* Listening the ports -------------------------------------------------- */
 
 
-app.listen(3000, function() {
-    console.log("Server in running. Port: 3000.");
+app.listen(5000, function() {
+    console.log("Server in running. Port: 5000.");
 });
