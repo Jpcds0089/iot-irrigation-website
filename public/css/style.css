@@ -15,7 +15,7 @@
 }
 
 
-/* Global tags ------------------------------------------------------- */
+/* Global ------------------------------------------------------------ */
 
 
 body {
@@ -25,13 +25,70 @@ body {
     
 }
 
+.b-heading {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.m-heading {
+    font-size: 3.0rem;
+    font-weight: bold;
+}
+
+.s-heading {
+    font-size: 1.5rem;
+}
+
 
 /* Home page --------------------------------------------------------- */
 
 
 /* Header */
+.up-left-col {
+    padding-left: 15%;
+}
+
+.navbar-col {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.navbar {
+    padding-top: 5.75%;
+    padding-bottom: 5.75%;
+}
+
+.up-right-col {
+    padding-right: 15%;
+}
+
+.middle-col {
+    padding-left: 15%;
+}
+
+.title-container {
+    color: white;
+    padding: 3% 3%;
+    background-color: var(--green-500);
+}
+
+.title-img-col {
+    text-align: center;
+}
+
 .person-img {
-    width: 200px;
+    width: 70%;
+    border-radius: 5%;
+}
+
+.bottom-left-col {
+    padding-left: 15%;
+    padding-bottom: 7%;
+}
+
+.bottom-right-col {
+    padding-right: 15%;
+    padding-bottom: 7%;
 }
 
 /* Features */
