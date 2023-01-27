@@ -78,10 +78,6 @@ body {
     background-color: var(--green-500);
 }
 
-.title-img-col {
-    text-align: center;
-}
-
 .person-img {
     width: 70%;
     border-radius: 5%;
@@ -124,8 +120,15 @@ body {
 }
 
 /* About */
+#about {
+    padding: 7% 15%;
+    color: white;
+    background-color: var(--green-400);
+}
+
 .irrigation-img {
-    width: 200px;
+    width: 70%;
+    border-radius: 5%;
 }
 
 /* Pricing */
