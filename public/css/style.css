@@ -34,11 +34,16 @@ body {
 .m-heading {
     font-size: 3.0rem;
     font-weight: bold;
+
 }
 
 .s-heading {
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.weight-less {
+    color: #8f8f8f;
 }
 
 
@@ -80,7 +85,6 @@ body {
 
 .person-img {
     width: 70%;
-    border-radius: 5%;
 }
 
 .bottom-left-col {
@@ -116,7 +120,7 @@ body {
 }
 
 .features-container p {
-    color: var(--gray-600);
+    
 }
 
 /* About */
@@ -128,10 +132,32 @@ body {
 
 .irrigation-img {
     width: 70%;
-    border-radius: 5%;
 }
 
 /* Pricing */
+#pricing {
+    padding: 7% 15%;
+    background-color: #F8FAFC;
+}
+
+.pricing-header {
+    max-width: 700px;
+    margin: auto;
+}
+
+.pricing-container {
+    max-width: 960px;
+    margin: auto;
+}
 
 
 /* Footer */
+
+footer {
+    padding: 7% 15%;
+    background-color: var(--green-600);
+}
+
+.footer-container i {
+    margin: auto 4px;
+}

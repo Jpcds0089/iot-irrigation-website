@@ -14,12 +14,12 @@
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- Scripts -->    
     <script src="https://kit.fontawesome.com/a55743a708.js" crossorigin="anonymous"></script>
     
   </head>
@@ -78,7 +78,7 @@
               <a class="btn btn-light btn-lg mt-5" href="#pricing">Buy Now!</a>
             </div>
             <div class="col col-6 text-center">
-              <img class="person-img" src="images/person.jpg" alt="Person-on-phone-image">
+              <img class="person-img rounded-5 shadow-lg" src="images/person.jpg" alt="Person-on-phone-image">
             </div>       
           </div>
         </div>
@@ -100,36 +100,36 @@
     <!-- Middle -->
     <section id="features">
 
-      <div class="row features-container">
+      <div class="row row-col-4 features-container">
 
-        <div class="col col-4">
+        <div class="col">
           <div>   
             <!-- <i class="fa-sharp fa-solid fa-leaf-heart"></i> -->
             <i class="features-fa fa-sharp fa-solid fa-hand-holding-heart fa-4x mb-3"></i>
           </div>
           <div>
             <h3 class="s-heading">Duis ut risus</h3>
-            <p>Curabitur sed accumsan urna. Nullam vulputate fringilla tortor.</p>
+            <p class="weight-less">Curabitur sed accumsan urna. Nullam vulputate fringilla tortor.</p>
           </div>
         </div>
 
-        <div class="col col-4">
+        <div class="col">
           <div>
             <i class="features-fa fa-sharp fa-solid fa-droplet fa-4x mb-3"></i>
           </div>
           <div>
             <h3 class="s-heading">Duis ut risus</h3>
-            <p>Curabitur sed accumsan urna. Nullam vulputate fringilla tortor.</p>
+            <p class="weight-less">Curabitur sed accumsan urna. Nullam vulputate fringilla tortor.</p>
           </div>
         </div>
 
-        <div class="col col-4">
+        <div class="col">
           <div>
             <i class="features-fa fa-sharp fa-solid fa-circle-check fa-4x mb-3"></i>
           </div>
           <div>
             <h3 class="s-heading">Duis ut risus</h3>
-            <p>Curabitur sed accumsan urna. Nullam vulputate fringilla tortor.</p>
+            <p class="weight-less">Curabitur sed accumsan urna. Nullam vulputate fringilla tortor.</p>
           </div>
         </div>
       
@@ -139,59 +139,94 @@
 
     <section id="about">
 
-      <div class="row">
+      <div class="row row-col-6">
         
-        <div class="col-6">
+        <div class="col">
           <h2 class="m-heading">Mauris vulputate nunc sit amet</h2>
           <p class="mt-4">Integer id magna vel mauris accumsan cursus in a risus. Pellentesque in ornare est. Pellentesque purus turpis, rhoncus ac porta eu, lobortis vel purus. Nam vulputate hendrerit ante eget blandit. Fusce in est scelerisque, tempus ipsum vel, lacinia sem. Maecenas ultricies risus lectus. Suspendisse ut feugiat lectus. Ut eu quam nec nulla finibus vestibulum.</p>
           <p class="mt-4">Integer id magna vel mauris accumsan cursus in a risus. Pellentesque in ornare est. Pellentesque purus turpis, rhoncus ac porta eu, lobortis vel purus. Nam vulputate hendrerit ante eget blandit. Fusce in est scelerisque, tempus ipsum vel, lacinia sem. Maecenas ultricies risus lectus. Suspendisse ut feugiat lectus. Ut eu quam nec nulla finibus vestibulum.</p>
         </div>
         
-        <div class="col-6 text-center">
-          <img class="irrigation-img" src="images/irrigation.jpg" alt="irrigation-img">
+        <div class="col text-center">
+          <img class="irrigation-img rounded-5 shadow-lg" src="images/irrigation.jpg" alt="irrigation-img">
         </div>
 
       </div>
     
     </section>
 
-    <section id="pricing">
+    <section id="pricing">  
 
-      <div class="row">
+      <div class="text-center pricing-header">
+        <h2 class="m-heading">Praesent</h2>
+        <p class="fs-5 weight-less">Sit amet, consectetur adipiscing elit. Aliquam est felis euismod nisi condimentum.</p>
+      </div>
 
+      <div class="row row-cols-1 row-cols-md-3 mb-3 mt-5 text-center pricing-container">
         <div class="col">
-          <h2>Free</h2>
-          <p>Nulla sodales</p>
-          <p>Curabitur sed</p>
-          <p>Ultricies risus</p>
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Free</h4>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title pricing-card-title m-heading">$0<small class="text-muted fw-light">/mo</small></h2>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>10 users included</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-success">Sign up for free</button>
+            </div>
+          </div>
         </div>
-
         <div class="col">
-          <h2>$5 / mo</h2>
-          <p>Nulla condimentum</p>
-          <p>Curabitur mattis</p>
-          <p>Ultricies risus</p>
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Pro</h4>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title pricing-card-title m-heading">$5<small class="text-muted fw-light">/mo</small></h2>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>20 users included</li>
+                <li>10 GB of storage</li>
+                <li>Priority email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-success">Get started</button>
+            </div>
+          </div>
         </div>
-
         <div class="col">
-          <h2>$15 / mo</h2>
-          <p>Nulla condimentum</p>
-          <p>Curabitur mattis</p>
-          <p>Ultricies convallis</p>
+          <div class="card mb-4 rounded-3 shadow-sm border-success">
+            <div class="card-header py-3 text-bg-success border-success">
+              <h4 class="my-0 fw-normal">Enterprice</h4>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title pricing-card-title m-heading">$15<small class="text-muted fw-light">/mo</small></h2>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>30 users included</li>
+                <li>15 GB of storage</li>
+                <li>Phone and email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-success">Contact us</button>
+            </div>
+          </div>
         </div>
-
       </div>
 
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="text-center text-white">
       
-      <div>
-        <i></i>
-        <i></i>
-        <i></i>
-        <p>© Copyright 2023 João Paulo Caetano.</p>
+      <div class="footer-container">
+        <i class="fa-brands fa-twitter fa-lg"></i>
+        <i class="fa-brands fa-facebook-f fa-lg"></i>
+        <i class="fa-brands fa-instagram fa-lg"></i>
+        <i class="fa-solid fa-envelope fa-lg"></i>
+        <p class="my-3">© Copyright 2023 João Paulo Caetano.</p>
       </div>
 
     </footer>
