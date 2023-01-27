@@ -9,6 +9,7 @@
     --green-400: #479F76;
     --green-500: #146C43;
     --green-600: #0F5132;
+    --gray-600: #6c757d;
     --gray-700: #343A40;
     --gray-900: #212529;
 
@@ -37,6 +38,7 @@ body {
 
 .s-heading {
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 
@@ -56,6 +58,10 @@ body {
 .navbar {
     padding-top: 5.75%;
     padding-bottom: 5.75%;
+}
+
+.navbar a {
+    font-weight: 400;
 }
 
 .up-right-col {
@@ -92,7 +98,30 @@ body {
 }
 
 /* Features */
+#features {
+    background-color: #F8FAFC;
+}
 
+.features-container {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.features-container .col {
+    padding: 3%;
+}
+
+.features-fa {
+    color: var(--green-400);
+}
+
+.features-fa:hover {
+    color: var(--green-600);
+}
+
+.features-container p {
+    color: var(--gray-600);
+}
 
 /* About */
 .irrigation-img {
